@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Hockeys Club</title>
+    <!-- css file link korchi -->
+    <link rel="stylesheet" href="style.css">
+    <!-- this is for tailwind and daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontowsome link for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--font owsome for icon  -->
+    <script src="https://kit.fontawesome.com/b4d7b66561.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font er cls -->
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="manrope">
+    <section class="mx-auto container mt-10">
+        <nav class="flex justify-around  ">
+            <h1 class="font-extrabold text-5xl">Hockey's</h1>
+            <div class="place-items-center">
+                <ul class="flex gap-10 content-center text-base font-bold">
+                    <li><a class="text-red-800" href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-thin fa-magnifying-glass"></i>
+                <button class="btn btn-primary">Get Ticket</button>
+            </div>
+
+        </nav>
+    </section>
+
+</body>
+
+</html>
